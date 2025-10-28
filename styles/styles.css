@@ -195,7 +195,7 @@ main {
                 border-radius: 15px;
                 padding: 10px;
                 text-align: center;
-                font-size: clamp (.8em 5vw, 1.2em);
+                font-size: clamp (.5em 5vw, 1em);
             }
         }
     }
