@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    --main:#002646;
+    /* darkblue */
+    --shadow:#001B32;
+    --gold:#BF9A5D;
+    --lightblue:#8FB8C9;
+    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--main);
+    
+
+
+}
+
+/* header */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+
+    align-items: center;
+
+    padding: 0 10px;
+
+
+    h1 {
+        grid-column: 2;
+
+        .logo {
+            height: 70px;
+
+            @media (min-width: 470px) {
+                height: 90px;
+            }
+        }
+    }
+
+    .navbtn {
+        z-index: 1;
+        justify-self: end;
+        background-color: unset;
+        border: unset;
+
+        &.is-open img {
+            content: url("../assets/x.svg");
+        }
+        
+    }
+
+    .menusmallscreen {
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+
+        padding: 6em 0 0 0;
+
+        background-color: var(--main);
+
+        width:100%;
+        max-width:16em;
+
+        translate: 100%;
+        transition: .2s;
+
+
+        &.is-open {
+            translate: 0;
+        }
+
+    }
+
+    .menusmallscreen ul {
+        margin:0;
+        padding:1em 0 0 0;
+        list-style-type: "";
+        justify-self: center;
+        gap: 1em;
+        display:grid;
+
+        a {
+            text-decoration: none;
+            color:white;
+        }
+    }
+
+    /* groot scherm */
+
+    @media (min-width: 500px) {
+        padding: 0 20px;
+    }
+
+    @media (min-width: 820px) {
+        grid-template-columns: 1fr;
+        
+        h1 {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            justify-self: center;
+            z-index: 1;
+        }
+
+        .navbtn {
+            display: none;
+        }
+
+        .menusmallscreen {
+            position:static;
+            translate: 0;
+            grid-column-start: 1;
+            grid-row-start: 1;
+            max-width: unset;
+            display: flex;
+            justify-content: space-between;
+            padding: unset;
+        }
+
+        .menusmallscreen ul {
+            display: flex;
+            gap: 1em;
+            background-color: var(--shadow);
+            border-radius: 15px;
+            padding: 1em;
+
+            a{
+                text-decoration: none;
+                color:white;
+            }
+        }
+    }
+}
+
+    /* main */
+
+section {
+
+    div {
+        background-image: 
+            linear-gradient(
+                200deg
+                var(--gold),
+                transparent
+            );
+    }
+    
+
+    img {
+     width: 100%;
+    }
+}
