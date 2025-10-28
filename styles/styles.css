@@ -8,6 +8,7 @@ html {
     --shadow:#001B32;
     --gold:#BF9A5D;
     --lightblue:#8FB8C9;
+    --trgold:rgb(191 154 93/ 0.6);
     
 }
 
@@ -15,9 +16,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: var(--main);
-    
-
-
 }
 
 /* header */
@@ -140,19 +138,61 @@ header {
 
     /* main */
 
-section {
+main {
+    padding: 1px;
+}
 
-    div {
+section {
+    position: relative;
+    max-height: 35em;
+    overflow:hidden;
+    padding:5px;
+
+    .gradient {
+        position: absolute;
+        width: 100%;
+        height: 35em;
         background-image: 
             linear-gradient(
-                200deg
-                var(--gold),
-                transparent
+                130deg,
+                var(--trgold) 25%,
+                transparent 85%
             );
     }
     
 
     img {
      width: 100%;
+     
+    }
+
+    h2 {
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 5%;
+        color: var(--shadow);
+        font-size: 2.5em;
+    }
+
+    .buttons {
+        position: absolute;
+        bottom: clamp(1em, 5vw, 3em);
+        right: clamp(1em, 5vw, 3em);
+        left: clamp(1em, 5vw, 3em);
+        display:flex;
+        justify-content: end;
+        gap: 1em;
+        
+        
+        a {
+            text-decoration: none;
+            color:var(--gold);
+            background-color: var(--shadow);
+            border-radius: 15px;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
     }
 }
