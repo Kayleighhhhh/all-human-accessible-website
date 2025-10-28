@@ -31,6 +31,8 @@ header {
 
     h1 {
         grid-column: 2;
+        margin:unset;
+        z-index: 11;
 
         .logo {
             height: 70px;
@@ -42,7 +44,7 @@ header {
     }
 
     .navbtn {
-        z-index: 1;
+        z-index: 11;
         justify-self: end;
         background-color: unset;
         border: unset;
@@ -68,6 +70,7 @@ header {
 
         translate: 100%;
         transition: .2s;
+        z-index: 10;
 
 
         &.is-open {
@@ -103,7 +106,7 @@ header {
             grid-column-start: 1;
             grid-row-start: 1;
             justify-self: center;
-            z-index: 1;
+            z-index: 11;
         }
 
         .navbtn {
@@ -144,17 +147,18 @@ main {
 
 section {
     position: relative;
-    max-height: 35em;
+    max-height: 37em;
     overflow:hidden;
     padding:5px;
 
     .gradient {
         position: absolute;
         width: 100%;
-        height: 35em;
+        height: 37em;
         background-image: 
             linear-gradient(
                 130deg,
+                var(--gold)5%,
                 var(--trgold) 25%,
                 transparent 85%
             );
@@ -172,7 +176,7 @@ section {
         top: 10%;
         left: 5%;
         color: var(--shadow);
-        font-size: 2.5em;
+        font-size: clamp(1em, 5vw, 2.5em);
     }
 
     .buttons {
@@ -192,7 +196,7 @@ section {
             border-radius: 15px;
             padding: 10px;
             text-align: center;
-            font-size: 1.2em;
+            font-size: clamp (.8em 5vw, 1.2em);
         }
     }
 }
