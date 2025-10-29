@@ -207,6 +207,7 @@ main {
                 padding: 10px;
                 text-align: center;
                 width: clamp (.5em 5vw, 1em);
+                transition: .2s;
             }
 
             a:hover {
