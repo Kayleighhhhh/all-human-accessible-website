@@ -12,7 +12,7 @@ Exhibitions section: shows the current exhibition.
 
 Collection section: links to the online catalogue where visitors can explore artworks.
 
-Footer: has links to contact info, press, privacy policy, FAQ, and social media (Instagram, Facebook, LinkedIn, and YouTube).
+Footer: has links to switch language, which is the only link that works, contact info, press, privacy policy, FAQ, and social media (Instagram, Facebook, LinkedIn, and YouTube).
 
 The footer also shows one of the museum’s partners.
 
