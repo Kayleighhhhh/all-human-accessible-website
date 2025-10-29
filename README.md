@@ -1,25 +1,42 @@
 # Accessible Website
 
-Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
+This is the website I made for Embassy of the Free Mind. It’s based on a museum-style website that is easy for everyone to use. The design is simple and made to be accessible for all people no matter what device they’re on.
 
-De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/INSTRUCTIONS.md)
+The site features various sections that showcase the museum's offerings, including exhibitions, collections, and hall rental. Everything is easy to find and clearly labelled. For now, the links don't work because I haven't started on the pages they are going to link to. I decided not to use a carousel because a carousel makes the website inaccessible for some people
 
-## Inhoudsopgave
+## What’s on the Website
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+The home page is made with a big images with short text and buttons that lead to other pages.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Exhibitions section: shows the current exhibition.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Collection section: links to the online catalogue where visitors can explore artworks.
 
-## Bronnen
+Footer: has links to contact info, press, privacy policy, FAQ, and social media (Instagram, Facebook, LinkedIn, and YouTube).
+
+The footer also shows one of the museum’s partners.
+
+## Design
+
+When going to another page, the header will stay the same, but the navigation on the left side will change to pages related to the page the user is on.
+
+Simple layout with easy navigation.
+
+Works on phones, tablets, and computers.
+
+Text is easy to read with good contrast.
+
+Every image has alt text.
+
+Buttons and links are clear and descriptive.
+
+## Some questions I still have:
+
+The next sprint wil be about look and feel, should the tone of the website feel more formal, friendly, creative or professional?
+
+What worked well for you from this website?
+
+What could be improved for the next sprint?
 
 ## Licentie
 This project is licensed under the terms of the [MIT license](./LICENSE).
