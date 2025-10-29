@@ -2,7 +2,7 @@
 
 This is the website I made for Embassy of the Free Mind. It’s based on a museum-style website that is easy for everyone to use. The design is simple and made to be accessible for all people no matter what device they’re on.
 
-The site features various sections that showcase the museum's offerings, including exhibitions, collections, and hall rental. Everything is easy to find and clearly labelled. For now, the links don't work because I haven't started on the pages they are going to link to. I decided not to use a carousel because a carousel makes the website inaccessible for some people
+The site features various sections that showcase the museum's offerings, including exhibitions, collections, and hall rental. Everything is easy to find and clearly labelled. For now, the links (except the NL/ENG links) don't work because I haven't started on the pages they will link to. I decided not to use a carousel because a carousel makes the website inaccessible for some people
 
 ## What’s on the Website
 
